@@ -84,13 +84,13 @@ body{
     min-width: 140px;
 }
 
-lsbel{
+label{
     padding: 12px 12px 12px 0;
 }
 
 .text{
     font-size: 16px;
-    color: #42515f;
+    color: hsl(209, 18%, 32%);
     opacity: 1;
     font-family: Roboto;
 }
@@ -101,4 +101,22 @@ lsbel{
     border: 1px solid#ccc;
     border-radius: 4px;
     resize: vertical;
+}
+
+.profile-radio-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content>label{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile{
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 20px;
+
 }
